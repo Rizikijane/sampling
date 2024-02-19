@@ -1,0 +1,52 @@
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white; /* Updated background color */
+    color: maroon; /* Updated text color */
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .mat-card {
+    max-width: 400px; /* Set a maximum width for the card */
+    padding: 20px;
+    min-width: 400px;
+    text-align: center;
+    background-color: white; /* Inherit the background color from the parent */
+  }
+  
+  .mat-card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .mat-card-subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .mat-card-content {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .mat-card-actions {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mat-raised-button {
+    background-color: white;
+    color: maroon;
+    border: 2px solid maroon;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .mat-raised-button:hover {
+    background-color: maroon;
+    color: white;
+  }
+  

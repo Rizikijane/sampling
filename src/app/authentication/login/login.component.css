@@ -1,0 +1,39 @@
+/* Style for the form container */
+.official-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #a80d0d;
+  border-radius: 8px;
+  background-color: #811515;
+  justify-content: center;
+  align-items: center;
+margin-top: 50px;
+}
+
+/* Style for form fields */
+.form-group {
+  margin-bottom: 30px;
+}
+
+/* Style for MatFormField */
+.mat-form-field {
+  width: 100%;
+}
+
+/* Style for buttons */
+button.mat-button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Style for button color */
+button.mat-button.primary {
+  background-color: #e9eef5;
+  color: #161414;
+}
+
+/* Style for button hover effect */
+button.mat-button:hover {
+  opacity: 0.8;
+}
